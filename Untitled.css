@@ -1,0 +1,76 @@
+
+body{
+  margin:0;
+  background: hsl(0, 0%, 98%);
+  font-family: Arial;
+}
+
+.nav{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #1E1E1E;
+}
+header::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+nav {
+  text-align:center;
+}
+
+nav ul {
+  margin:0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  padding: 10px 10px;
+}
+nav ul a{
+  color:#e6e6e6;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:15px;
+  padding: 10px 10px;
+}
+
+nav ul .active{
+  background:#e6f0ff;
+  color:#000000;
+}
+
+.bibliography{
+  padding: 0 20px;
+}
+#reference{
+  list-style:none;
+  margin:0;
+}
+.heading{
+  text-align:center;
+  background: #cce6ff;
+  margin: 0 auto;
+  width: 100%;
+  height:50px;
+}
+.info{
+  padding: 0 10px;
+}
+
+.info-1{
+  width:50%;
+  float:left;
+  padding: 0 10px;
+}
+.subheading{
+  color: #000033;
+}
+.image {
+  width:45%;
+  float:left;
+}
